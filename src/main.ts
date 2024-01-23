@@ -8,7 +8,7 @@ app.use(router)
 //Configurar Token API Google MAPS
 app.use(VueGoogleMaps, {
     load: {
-        key: 'AIzaSyB98h_-EG9eFZxjlVeRJ2cD1yMH-v1KGqI',
+        key: 'TU_API_KEY',
         libraries: "places"
     },
 })
